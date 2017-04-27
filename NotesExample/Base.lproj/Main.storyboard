@@ -69,14 +69,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MrC-Np-mfb">
-                                <rect key="frame" x="0.0" y="579" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <color key="backgroundColor" red="0.99920686820000004" green="1" blue="0.86467407439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="0Ic-cc-uOG"/>
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LVb-cb-TaE">
-                                <rect key="frame" x="16" y="64" width="343" height="515"/>
+                                <rect key="frame" x="16" y="64" width="343" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -121,15 +121,15 @@
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="667"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFO-0N-uG7">
-                                                <rect key="frame" x="120.5" y="80.5" width="101" height="45"/>
+                                                <rect key="frame" x="120.5" y="130.5" width="101" height="45"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="37"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfS-XG-mXN">
-                                                <rect key="frame" x="20" y="178.5" width="303" height="110"/>
+                                                <rect key="frame" x="20" y="228.5" width="303" height="110"/>
                                                 <subviews>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2017raphael5" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-7O-MDn">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-7O-MDn">
                                                         <rect key="frame" x="0.0" y="1" width="303" height="43"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="43" id="1iP-wN-ZGF"/>
@@ -138,7 +138,7 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                                     </textField>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="f16f39" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4dg-IL-tLO">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4dg-IL-tLO">
                                                         <rect key="frame" x="0.0" y="66" width="303" height="43"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="43" id="0Aw-f0-gOC"/>
@@ -160,7 +160,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aek-L9-n0L">
-                                                <rect key="frame" x="152" y="318" width="38" height="30"/>
+                                                <rect key="frame" x="152" y="368" width="38" height="30"/>
                                                 <state key="normal" title="Login"/>
                                                 <connections>
                                                     <action selector="loginTapped:" destination="bgD-JY-Pnc" eventType="touchUpInside" id="odu-hH-lu1"/>
@@ -169,7 +169,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="PfS-XG-mXN" firstAttribute="centerY" secondItem="DMU-AB-cKK" secondAttribute="centerY" constant="-100" id="86l-EP-oB2"/>
+                                            <constraint firstItem="PfS-XG-mXN" firstAttribute="centerY" secondItem="DMU-AB-cKK" secondAttribute="centerY" constant="-50" id="86l-EP-oB2"/>
                                             <constraint firstItem="PfS-XG-mXN" firstAttribute="top" secondItem="RFO-0N-uG7" secondAttribute="bottom" constant="53.5" id="Dm6-ZW-yEB"/>
                                             <constraint firstItem="aek-L9-n0L" firstAttribute="centerX" secondItem="PfS-XG-mXN" secondAttribute="centerX" id="Nhl-Fo-vSY"/>
                                             <constraint firstItem="RFO-0N-uG7" firstAttribute="centerX" secondItem="DMU-AB-cKK" secondAttribute="centerX" id="T8B-yA-ixM"/>
